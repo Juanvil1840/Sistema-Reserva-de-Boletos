@@ -1,0 +1,23 @@
+{
+  "red": {
+    "ip_gt": "localhost",
+    "puerto_sync": 5555,
+    "puerto_async": 5556,
+    "puerto_notificaciones": 5557
+  },
+  "simulacion": {
+    "duracion_segundos": 60,
+    "solicitudes_por_minuto": 20,
+    "clientes": [
+      {"idCliente": "C001", "porcentaje_consulta": 1.0, "porcentaje_reserva": 0.0},
+      {"idCliente": "C002", "porcentaje_consulta": 1.0, "porcentaje_reserva": 0.0},
+      {"idCliente": "C003", "porcentaje_consulta": 1.0, "porcentaje_reserva": 0.0},
+      {"idCliente": "C004", "porcentaje_consulta": 1.0, "porcentaje_reserva": 0.0},
+      {"idCliente": "C005", "porcentaje_consulta": 0.5, "porcentaje_reserva": 0.5},
+      {"idCliente": "C006", "porcentaje_consulta": 0.5, "porcentaje_reserva": 0.5},
+      {"idCliente": "C007", "porcentaje_consulta": 0.5, "porcentaje_reserva": 0.5},
+      {"idCliente": "C008", "porcentaje_consulta": 0.5, "porcentaje_reserva": 0.5}
+    ]
+  }
+}
+

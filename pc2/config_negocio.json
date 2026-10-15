@@ -1,0 +1,20 @@
+{
+  "gestor_transacciones": {
+    "puerto_sync": 5555,
+    "puerto_async": 5556,
+    "host_rmc": "localhost",
+    "puerto_rmc": 5558
+  },
+  "servicio_rmc": {
+    "puerto_servicio": 5558,
+    "host_persistencia": "localhost",
+    "puerto_persistencia": 5560
+  },
+  "servicio_cancelaciones": {
+    "puerto_pub": 5557,
+    "puerto_pull": 5559,
+    "host_persistencia": "localhost",
+    "puerto_persistencia": 5560
+  }
+}
+
