@@ -1,0 +1,28 @@
+{
+  "gestor": {
+    "puerto_sync": 5555,
+    "puerto_async": 5556,
+    "puerto_backend_rmc": 5560,
+    "host_cancelaciones": "localhost",
+    "puerto_cancelaciones_push": 5559,
+    "puerto_heartbeat": 5569,
+    "host_persistencia": "localhost",
+    "puerto_persistencia": 5558,
+    "timeout_persistencia_ms": 5000,
+    "num_replicas_rmc": 2
+  },
+  "servicio_rmc": {
+    "host_gestor": "localhost",
+    "puerto_backend_rmc": 5560,
+    "host_persistencia": "localhost",
+    "puerto_persistencia": 5558,
+    "timeout_persistencia_ms": 5000
+  },
+  "servicio_cancelaciones": {
+    "puerto_pull": 5559,
+    "puerto_pub": 5557,
+    "host_persistencia": "localhost",
+    "puerto_persistencia": 5558,
+    "timeout_persistencia_ms": 5000
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "puerto_escucha": 5558,
+  "ruta_base_datos": "db/base_datos.db",
+  "ruta_csv": "datos/eventos_prueba.csv",
+  "respaldo": {
+    "habilitado": true,
+    "host_gt_principal": "localhost",
+    "puerto_heartbeat_principal": 5569,
+    "intervalo_heartbeat_seg": 2.0,
+    "timeout_heartbeat_ms": 2500,
+    "fallos_consecutivos_para_failover": 2,
+    "periodo_gracia_seg": 15,
+    "puerto_sync": 5555,
+    "puerto_async": 5556,
+    "puerto_pub": 5557,
+    "host_persistencia": "localhost",
+    "puerto_persistencia": 5558,
+    "puerto_cancelaciones_push": 5559,
+    "puerto_backend_rmc": 5560,
+    "num_replicas_rmc": 2
+  }
+}

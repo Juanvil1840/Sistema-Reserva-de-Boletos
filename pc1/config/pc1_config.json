@@ -1,0 +1,29 @@
+{
+  "servidor_principal": {
+    "host": "localhost",
+    "puerto_sync": 5555,
+    "puerto_async": 5556,
+    "puerto_pub": 5557
+  },
+  "servidor_respaldo": {
+    "host": "localhost",
+    "puerto_sync": 5555,
+    "puerto_async": 5556,
+    "puerto_pub": 5557
+  },
+  "simulacion": {
+    "num_clientes": 3,
+    "duracion_segundos": 30,
+    "solicitudes_por_minuto_por_cliente": 24,
+    "timeout_ms": 3000,
+    "reintentos_max": 2,
+    "mes_consulta": 10,
+    "porcentajes": {
+      "consultar": 40,
+      "reservar": 30,
+      "modificar": 15,
+      "cancelar": 15
+    },
+    "carpeta_resultados": "resultados"
+  }
+}

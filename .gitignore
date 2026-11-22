@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Bases de datos SQLite y archivos WAL/SHM del SRB
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Resultados de simulaciones locales (conservando .gitkeep si existe)
+pc1/resultados/*.csv
+!**.gitkeep
+

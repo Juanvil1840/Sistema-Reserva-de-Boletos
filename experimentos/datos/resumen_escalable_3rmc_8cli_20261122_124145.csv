@@ -1,0 +1,7 @@
+escenario,operacion,total,exitosas,fallidas,con_failover,promedio_ms,desv_est_ms,mediana_ms,min_ms,max_ms,tpm
+escalable_3rmc_8cli,consultar,20,20,0,0,5.087,5.586,3.462,1.672,23.696,119.71
+escalable_3rmc_8cli,reservar,21,21,0,0,6.936,5.734,4.155,2.831,21.934,125.7
+escalable_3rmc_8cli,modificar,6,6,0,0,3.84,0.734,4.056,2.938,4.709,35.91
+escalable_3rmc_8cli,cancelar_acuse,4,4,0,0,1.4,0.541,1.366,0.804,2.063,23.94
+escalable_3rmc_8cli,cancelar_total,4,4,0,0,3.394,1.367,3.631,1.782,4.532,23.94
+escalable_3rmc_8cli,GLOBAL,51,51,0,0,5.413,5.261,3.753,0.804,23.696,305.27

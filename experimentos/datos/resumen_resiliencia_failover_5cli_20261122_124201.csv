@@ -1,0 +1,7 @@
+escenario,operacion,total,exitosas,fallidas,con_failover,promedio_ms,desv_est_ms,mediana_ms,min_ms,max_ms,tpm
+resiliencia_failover_5cli,consultar,8,8,0,1,271.009,751.301,3.83,1.34,2130.349,47.42
+resiliencia_failover_5cli,reservar,15,15,0,2,290.046,747.31,4.426,2.34,2134.652,88.91
+resiliencia_failover_5cli,modificar,4,4,0,2,1117.593,1288.678,1065.644,3.956,2335.127,23.71
+resiliencia_failover_5cli,cancelar_acuse,5,5,0,0,1.088,0.334,1.103,0.648,1.556,29.64
+resiliencia_failover_5cli,cancelar_total,5,5,0,0,851.22,1299.073,2.917,2.443,2945.502,29.64
+resiliencia_failover_5cli,GLOBAL,32,32,0,5,343.58,799.594,3.987,0.648,2335.127,189.67

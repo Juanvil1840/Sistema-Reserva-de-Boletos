@@ -1,12 +1,14 @@
+FROM python:3.11-slim
 
-FROM python:3.9-slim
+ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . /app
 
+EXPOSE 5555 5556 5557 5559 5560 5569
 
-RUN pip install --no-cache-dir pyzmq
-
-EXPOSE 5555 5556 5557
-CMD ["tail", "-f", "/dev/null"]
+CMD ["python", "-u", "iniciar_pc2.py"]

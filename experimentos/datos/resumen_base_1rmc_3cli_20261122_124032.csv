@@ -1,0 +1,7 @@
+escenario,operacion,total,exitosas,fallidas,con_failover,promedio_ms,desv_est_ms,mediana_ms,min_ms,max_ms,tpm
+base_1rmc_3cli,consultar,6,6,0,0,2.451,0.381,2.569,1.978,2.832,35.94
+base_1rmc_3cli,reservar,6,6,0,0,7.384,2.874,6.761,3.675,11.217,35.94
+base_1rmc_3cli,modificar,2,2,0,0,4.75,1.637,4.75,3.592,5.907,11.98
+base_1rmc_3cli,cancelar_acuse,5,5,0,0,1.694,0.486,1.566,1.165,2.338,29.95
+base_1rmc_3cli,cancelar_total,5,5,0,0,4.593,1.723,4.825,2.963,7.222,29.95
+base_1rmc_3cli,GLOBAL,19,19,0,0,4.051,2.948,2.775,1.165,11.217,113.8

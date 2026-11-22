@@ -1,0 +1,64 @@
+timestamp_iso,escenario,id_cliente,id_transaccion,operacion,nodo_destino,hubo_failover,exito,latencia_ms,detalle
+2026-11-22T12:40:51.420,base_1rmc_8cli,CLI-01,6f6fb507-4301-4326-b46f-3a0df22fb0a8,reservar,PRINCIPAL,False,True,12.671,idReserva=RES-ce487038 ev=E018 puestos=2
+2026-11-22T12:40:51.425,base_1rmc_8cli,CLI-01,f53fd31f-adb1-4616-92a9-ae403d135a5d,modificar,PRINCIPAL,False,True,5.832,idReserva=RES-ce487038 -> ev=E018 puestos=1
+2026-11-22T12:40:51.426,base_1rmc_8cli,CLI-02,bdc7331a-7496-4a8e-9b6b-da63b16f6602,reservar,PRINCIPAL,False,True,10.812,idReserva=RES-2552af4a ev=E029 puestos=1
+2026-11-22T12:40:51.431,base_1rmc_8cli,CLI-03,CON-930dde64b9,consultar,PRINCIPAL,False,True,11.099,eventos=50
+2026-11-22T12:40:51.435,base_1rmc_8cli,CLI-02,6b44c995-70e3-435b-9a50-fe792f6c5194,modificar,PRINCIPAL,False,True,9.377,idReserva=RES-2552af4a -> ev=E005 puestos=1
+2026-11-22T12:40:51.436,base_1rmc_8cli,CLI-04,b75ee5ee-4ac6-4e71-83eb-0a2b577ea78b,reservar,PRINCIPAL,False,True,9.537,idReserva=RES-e738ae7b ev=E037 puestos=2
+2026-11-22T12:40:51.440,base_1rmc_8cli,CLI-05,87fb20ae-f9b3-4df9-a649-40a4c1313c09,reservar,PRINCIPAL,False,True,9.146,idReserva=RES-6a089a30 ev=E029 puestos=3
+2026-11-22T12:40:51.445,base_1rmc_8cli,CLI-06,fb8aac14-2974-4d11-9d05-f61351061afc,reservar,PRINCIPAL,False,True,9.849,idReserva=RES-cbd192b9 ev=E049 puestos=3
+2026-11-22T12:40:51.445,base_1rmc_8cli,CLI-05,304c8687-3dcf-4117-81f9-eb636f4659b2,modificar,PRINCIPAL,False,True,5.16,idReserva=RES-6a089a30 -> ev=E008 puestos=4
+2026-11-22T12:40:51.450,base_1rmc_8cli,CLI-07,19bb9097-6d33-4801-b354-c7c0e6bc4538,reservar,PRINCIPAL,False,True,9.75,idReserva=RES-579f9c03 ev=E009 puestos=3
+2026-11-22T12:40:51.450,base_1rmc_8cli,CLI-06,ddd6ec88-e81c-435a-a7b8-8152f5f04fc1,modificar,PRINCIPAL,False,True,5.151,idReserva=RES-cbd192b9 -> ev=E012 puestos=2
+2026-11-22T12:40:51.453,base_1rmc_8cli,CLI-08,9057a834-7c13-447c-b0a9-b804af09c70f,reservar,PRINCIPAL,False,True,7.047,idReserva=RES-4dc85726 ev=E019 puestos=2
+2026-11-22T12:40:51.453,base_1rmc_8cli,CLI-07,0854da8c-b4ff-4169-92fd-68833d5f8683,modificar,PRINCIPAL,False,True,3.463,idReserva=RES-579f9c03 -> ev=E009 puestos=2
+2026-11-22T12:40:51.456,base_1rmc_8cli,CLI-08,2bb7a85e-b484-4ddf-8446-06f460972389,modificar,PRINCIPAL,False,True,2.316,idReserva=RES-4dc85726 -> ev=E023 puestos=2
+2026-11-22T12:40:53.076,base_1rmc_8cli,CLI-01,21523902-f9bc-4cfd-b76d-64d91a0000f0,modificar,PRINCIPAL,False,True,7.97,idReserva=RES-ce487038 -> ev=E012 puestos=2
+2026-11-22T12:40:53.091,base_1rmc_8cli,CLI-03,440fb936-6ce0-441f-a1c5-5c5ce3d3cdd7,reservar,PRINCIPAL,False,True,6.903,idReserva=RES-ce0ff629 ev=E040 puestos=3
+2026-11-22T12:40:53.097,base_1rmc_8cli,CLI-03,d91ca79a-b9d9-4816-8f84-d8d92a2e0ec4,modificar,PRINCIPAL,False,True,6.156,idReserva=RES-ce0ff629 -> ev=E014 puestos=4
+2026-11-22T12:40:53.104,base_1rmc_8cli,CLI-02,3c0df184-4c6a-4601-bf6a-e767bb212544,reservar,PRINCIPAL,False,True,4.332,idReserva=RES-f98aff39 ev=E050 puestos=1
+2026-11-22T12:40:53.107,base_1rmc_8cli,CLI-05,8d3d921e-e60c-46ac-864f-744467c6e655,modificar,PRINCIPAL,False,True,7.312,idReserva=RES-6a089a30 -> ev=E050 puestos=3
+2026-11-22T12:40:53.115,base_1rmc_8cli,CLI-04,62e88fc1-f787-4ddc-b4be-e137ed9aab29,cancelar_acuse,PRINCIPAL,False,True,2.497,idReserva=RES-e738ae7b estado=EN_PROCESO
+2026-11-22T12:40:53.115,base_1rmc_8cli,CLI-06,CON-df05ac7600,consultar,PRINCIPAL,False,True,3.457,eventos=50
+2026-11-22T12:40:53.120,base_1rmc_8cli,CLI-04,62e88fc1-f787-4ddc-b4be-e137ed9aab29,cancelar_total,PRINCIPAL,False,True,6.006,idReserva=RES-e738ae7b notif=CANCELADA
+2026-11-22T12:40:53.128,base_1rmc_8cli,CLI-07,b69e2c78-38d1-4994-8026-af2d623ae46d,reservar,PRINCIPAL,False,True,6.018,idReserva=RES-796af320 ev=E030 puestos=1
+2026-11-22T12:40:53.141,base_1rmc_8cli,CLI-08,c304ed63-0c47-4867-b61f-0905fd66669e,reservar,PRINCIPAL,False,True,3.508,idReserva=RES-9a941a11 ev=E001 puestos=3
+2026-11-22T12:40:54.752,base_1rmc_8cli,CLI-01,4790900f-e66d-4d7a-b2aa-a11b722630f3,cancelar_acuse,PRINCIPAL,False,True,2.7,idReserva=RES-ce487038 estado=EN_PROCESO
+2026-11-22T12:40:54.757,base_1rmc_8cli,CLI-01,4790900f-e66d-4d7a-b2aa-a11b722630f3,cancelar_total,PRINCIPAL,False,True,6.471,idReserva=RES-ce487038 notif=CANCELADA
+2026-11-22T12:40:54.772,base_1rmc_8cli,CLI-03,f2e43629-4755-41cb-99b5-3c86c84c6d72,reservar,PRINCIPAL,False,True,7.155,idReserva=RES-3ff29e12 ev=E021 puestos=1
+2026-11-22T12:40:54.785,base_1rmc_8cli,CLI-05,f1774644-4001-43a8-b90d-90b0eaf52edc,reservar,PRINCIPAL,False,True,5.469,idReserva=RES-65de13f8 ev=E028 puestos=1
+2026-11-22T12:40:54.786,base_1rmc_8cli,CLI-02,CON-91522d9f14,consultar,PRINCIPAL,False,True,7.503,eventos=50
+2026-11-22T12:40:54.799,base_1rmc_8cli,CLI-07,3e7a8720-e634-444f-aa6a-94f8d1e3c883,modificar,PRINCIPAL,False,True,3.672,idReserva=RES-579f9c03 -> ev=E021 puestos=4
+2026-11-22T12:40:54.801,base_1rmc_8cli,CLI-06,CON-cafc744ce7,consultar,PRINCIPAL,False,True,4.261,eventos=50
+2026-11-22T12:40:54.802,base_1rmc_8cli,CLI-04,CON-099cca04d1,consultar,PRINCIPAL,False,True,5.102,eventos=50
+2026-11-22T12:40:54.814,base_1rmc_8cli,CLI-08,9b14a9bf-0eff-4d9b-97d2-a8af5aa59a50,reservar,PRINCIPAL,False,True,2.886,idReserva=RES-067c9c1c ev=E028 puestos=3
+2026-11-22T12:40:56.419,base_1rmc_8cli,CLI-01,4b9d3f68-21e4-4001-8fd5-0100c3461796,reservar,PRINCIPAL,False,True,7.064,idReserva=RES-49596d5a ev=E010 puestos=1
+2026-11-22T12:40:56.431,base_1rmc_8cli,CLI-03,CON-8e2c50a750,consultar,PRINCIPAL,False,True,3.871,eventos=50
+2026-11-22T12:40:56.446,base_1rmc_8cli,CLI-05,9808c648-ec73-4a53-a56d-46d9b3fc0f75,cancelar_acuse,PRINCIPAL,False,True,2.104,idReserva=RES-6a089a30 estado=EN_PROCESO
+2026-11-22T12:40:56.448,base_1rmc_8cli,CLI-02,CON-12656b382c,consultar,PRINCIPAL,False,True,3.884,eventos=50
+2026-11-22T12:40:56.449,base_1rmc_8cli,CLI-05,9808c648-ec73-4a53-a56d-46d9b3fc0f75,cancelar_total,PRINCIPAL,False,True,5.218,idReserva=RES-6a089a30 notif=CANCELADA
+2026-11-22T12:40:56.464,base_1rmc_8cli,CLI-04,9c37604f-ec73-4597-b5e5-ea283b1edfc4,reservar,PRINCIPAL,False,True,5.832,idReserva=RES-c832e916 ev=E002 puestos=1
+2026-11-22T12:40:56.467,base_1rmc_8cli,CLI-06,3c291491-02bf-42d1-a019-b4d81c9e572d,modificar,PRINCIPAL,False,True,8.015,idReserva=RES-cbd192b9 -> ev=E018 puestos=3
+2026-11-22T12:40:56.480,base_1rmc_8cli,CLI-07,509886e2-d411-4507-a967-643a24f08ee3,reservar,PRINCIPAL,False,True,5.417,idReserva=RES-de23bddd ev=E003 puestos=2
+2026-11-22T12:40:56.494,base_1rmc_8cli,CLI-08,514fe8cf-ed8f-49b7-b221-4acb924c6893,reservar,PRINCIPAL,False,True,5.48,idReserva=RES-6ccffa7d ev=E021 puestos=2
+2026-11-22T12:40:58.101,base_1rmc_8cli,CLI-01,CON-0a0b850dff,consultar,PRINCIPAL,False,True,4.36,eventos=50
+2026-11-22T12:40:58.120,base_1rmc_8cli,CLI-03,15869343-3914-4c1b-aaf2-814cc9a63b5b,modificar,PRINCIPAL,False,True,8.387,idReserva=RES-3ff29e12 -> ev=E049 puestos=1
+2026-11-22T12:40:58.130,base_1rmc_8cli,CLI-05,CON-6e397bc3b8,consultar,PRINCIPAL,False,True,3.763,eventos=50
+2026-11-22T12:40:58.132,base_1rmc_8cli,CLI-02,CON-8e9c946dc5,consultar,PRINCIPAL,False,True,5.544,eventos=50
+2026-11-22T12:40:58.144,base_1rmc_8cli,CLI-04,49ab199b-211e-4484-9625-1ab7bfa0028e,cancelar_acuse,PRINCIPAL,False,True,1.739,idReserva=RES-c832e916 estado=EN_PROCESO
+2026-11-22T12:40:58.146,base_1rmc_8cli,CLI-06,CON-fecdaeadb7,consultar,PRINCIPAL,False,True,3.277,eventos=50
+2026-11-22T12:40:58.147,base_1rmc_8cli,CLI-04,49ab199b-211e-4484-9625-1ab7bfa0028e,cancelar_total,PRINCIPAL,False,True,5.237,idReserva=RES-c832e916 notif=CANCELADA
+2026-11-22T12:40:58.160,base_1rmc_8cli,CLI-07,f370e2a5-e6dc-4fb2-bb6f-7d6ba5328923,cancelar_acuse,PRINCIPAL,False,True,1.422,idReserva=RES-579f9c03 estado=EN_PROCESO
+2026-11-22T12:40:58.163,base_1rmc_8cli,CLI-07,f370e2a5-e6dc-4fb2-bb6f-7d6ba5328923,cancelar_total,PRINCIPAL,False,True,4.253,idReserva=RES-579f9c03 notif=CANCELADA
+2026-11-22T12:40:58.175,base_1rmc_8cli,CLI-08,87990836-d5b0-4e74-a9fe-16ea4a70c3bc,cancelar_acuse,PRINCIPAL,False,True,1.603,idReserva=RES-4dc85726 estado=EN_PROCESO
+2026-11-22T12:40:58.179,base_1rmc_8cli,CLI-08,87990836-d5b0-4e74-a9fe-16ea4a70c3bc,cancelar_total,PRINCIPAL,False,True,4.475,idReserva=RES-4dc85726 notif=CANCELADA
+2026-11-22T12:40:59.765,base_1rmc_8cli,CLI-01,CON-8a7c939196,consultar,PRINCIPAL,False,True,3.28,eventos=50
+2026-11-22T12:40:59.784,base_1rmc_8cli,CLI-03,5892b320-a0ef-4fb2-99e1-60235e277f47,reservar,PRINCIPAL,False,True,6.246,idReserva=RES-d26046fa ev=E016 puestos=1
+2026-11-22T12:40:59.795,base_1rmc_8cli,CLI-05,CON-7dacc45890,consultar,PRINCIPAL,False,True,1.951,eventos=50
+2026-11-22T12:40:59.798,base_1rmc_8cli,CLI-02,5701fb21-7042-41f2-b7fc-605fd18b74d6,modificar,PRINCIPAL,False,True,4.718,idReserva=RES-f98aff39 -> ev=E005 puestos=2
+2026-11-22T12:40:59.810,base_1rmc_8cli,CLI-06,e9603655-6b12-43f6-ae29-553a8964a68a,cancelar_acuse,PRINCIPAL,False,True,1.392,idReserva=RES-cbd192b9 estado=EN_PROCESO
+2026-11-22T12:40:59.814,base_1rmc_8cli,CLI-06,e9603655-6b12-43f6-ae29-553a8964a68a,cancelar_total,PRINCIPAL,False,True,4.947,idReserva=RES-cbd192b9 notif=CANCELADA
+2026-11-22T12:40:59.815,base_1rmc_8cli,CLI-04,5874e87e-b150-47f0-b350-369e1b95191a,reservar,PRINCIPAL,False,True,5.935,idReserva=RES-e6aeae71 ev=E039 puestos=1
+2026-11-22T12:40:59.827,base_1rmc_8cli,CLI-07,CON-07492b2771,consultar,PRINCIPAL,False,True,2.76,eventos=50
+2026-11-22T12:40:59.842,base_1rmc_8cli,CLI-08,8a338edc-ee20-4a35-8eb0-bcca42ef5a59,cancelar_acuse,PRINCIPAL,False,True,2.268,idReserva=RES-9a941a11 estado=EN_PROCESO
+2026-11-22T12:40:59.846,base_1rmc_8cli,CLI-08,8a338edc-ee20-4a35-8eb0-bcca42ef5a59,cancelar_total,PRINCIPAL,False,True,5.496,idReserva=RES-9a941a11 notif=CANCELADA

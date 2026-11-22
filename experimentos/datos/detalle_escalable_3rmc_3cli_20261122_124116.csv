@@ -1,0 +1,21 @@
+timestamp_iso,escenario,id_cliente,id_transaccion,operacion,nodo_destino,hubo_failover,exito,latencia_ms,detalle
+2026-11-22T12:41:06.111,escalable_3rmc_3cli,CLI-01,CON-197e0d5b62,consultar,PRINCIPAL,False,True,25.177,eventos=50
+2026-11-22T12:41:06.114,escalable_3rmc_3cli,CLI-02,CON-5804dde7cc,consultar,PRINCIPAL,False,True,21.26,eventos=50
+2026-11-22T12:41:06.116,escalable_3rmc_3cli,CLI-03,ee3ea4af-aacd-40b1-be10-f51bb640e8fd,reservar,PRINCIPAL,False,True,17.566,idReserva=RES-773c22f3 ev=E035 puestos=3
+2026-11-22T12:41:07.759,escalable_3rmc_3cli,CLI-02,CON-8fd0089ccc,consultar,PRINCIPAL,False,True,2.444,eventos=50
+2026-11-22T12:41:07.775,escalable_3rmc_3cli,CLI-03,d42dafc9-6048-40e3-817c-640414fb5291,modificar,PRINCIPAL,False,True,3.77,idReserva=RES-773c22f3 -> ev=E015 puestos=3
+2026-11-22T12:41:07.775,escalable_3rmc_3cli,CLI-01,bb9e973c-c5e6-44f6-8d91-441855726e2e,reservar,PRINCIPAL,False,True,3.776,idReserva=RES-1618f2c1 ev=E047 puestos=1
+2026-11-22T12:41:09.443,escalable_3rmc_3cli,CLI-02,CON-86505e2348,consultar,PRINCIPAL,False,True,4.214,eventos=50
+2026-11-22T12:41:09.456,escalable_3rmc_3cli,CLI-01,CON-192d01914c,consultar,PRINCIPAL,False,True,1.889,eventos=50
+2026-11-22T12:41:09.457,escalable_3rmc_3cli,CLI-03,CON-1bb0a61d90,consultar,PRINCIPAL,False,True,1.883,eventos=50
+2026-11-22T12:41:11.112,escalable_3rmc_3cli,CLI-02,8eed1ea4-b88c-494b-b0fe-e28ae46141c0,reservar,PRINCIPAL,False,True,7.128,idReserva=RES-56da3794 ev=E046 puestos=1
+2026-11-22T12:41:11.115,escalable_3rmc_3cli,CLI-02,3145b0c1-ea27-415c-a3f4-32cb3e4e9524,modificar,PRINCIPAL,False,True,3.87,idReserva=RES-56da3794 -> ev=E046 puestos=3
+2026-11-22T12:41:11.124,escalable_3rmc_3cli,CLI-03,CON-41d4540a23,consultar,PRINCIPAL,False,True,3.094,eventos=50
+2026-11-22T12:41:11.124,escalable_3rmc_3cli,CLI-01,fd12301b-24f3-496b-b8d6-b638b5433f40,reservar,PRINCIPAL,False,True,3.289,idReserva=RES-85645e7a ev=E020 puestos=1
+2026-11-22T12:41:12.773,escalable_3rmc_3cli,CLI-02,2daea2d3-7c8c-4cff-bd16-1fddf1bb8460,reservar,PRINCIPAL,False,True,3.766,idReserva=RES-4cb30718 ev=E035 puestos=2
+2026-11-22T12:41:12.806,escalable_3rmc_3cli,CLI-03,CON-2cbf0ca757,consultar,PRINCIPAL,False,True,4.15,eventos=50
+2026-11-22T12:41:12.806,escalable_3rmc_3cli,CLI-01,218d3b7a-ea2a-4ace-9ae9-4b75aa001547,modificar,PRINCIPAL,False,True,4.962,idReserva=RES-85645e7a -> ev=E038 puestos=3
+2026-11-22T12:41:14.446,escalable_3rmc_3cli,CLI-02,CON-d0f59188ea,consultar,PRINCIPAL,False,True,3.753,eventos=50
+2026-11-22T12:41:14.485,escalable_3rmc_3cli,CLI-03,b7f54ee3-3a76-49cd-939a-a99a24e96e84,cancelar_acuse,PRINCIPAL,False,True,1.152,idReserva=RES-773c22f3 estado=EN_PROCESO
+2026-11-22T12:41:14.487,escalable_3rmc_3cli,CLI-01,CON-cc6d955170,consultar,PRINCIPAL,False,True,1.735,eventos=50
+2026-11-22T12:41:14.489,escalable_3rmc_3cli,CLI-03,b7f54ee3-3a76-49cd-939a-a99a24e96e84,cancelar_total,PRINCIPAL,False,True,3.086,idReserva=RES-773c22f3 notif=CANCELADA

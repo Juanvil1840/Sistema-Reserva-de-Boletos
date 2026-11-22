@@ -1,14 +1,14 @@
+FROM python:3.11-slim
 
-FROM python:3.9-slim
-
+ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app
 
-RUN pip install --no-cache-dir pyzmq
+EXPOSE 5555 5556 5557 5558 5559 5560
 
-EXPOSE 5560
-
-CMD ["python", "servicio_persistencia.py"]
+CMD ["python", "-u", "iniciar_pc3.py"]

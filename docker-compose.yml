@@ -1,0 +1,54 @@
+# Orquestación local en red bridge de Docker para validar las 3 capas del SRB
+# Uso: docker compose up --build
+
+services:
+  pc3-persistencia-respaldo:
+    build: ./pc3
+    container_name: pc3-persistencia-respaldo
+    environment:
+      - HOST_GT_PRINCIPAL=pc2-negocio
+      - NUM_REPLICAS_RMC=2
+    ports:
+      - "5558:5558"
+    networks:
+      - red-srb
+
+  pc2-negocio:
+    build: ./pc2
+    container_name: pc2-negocio
+    depends_on:
+      - pc3-persistencia-respaldo
+    environment:
+      - HOST_PERSISTENCIA=pc3-persistencia-respaldo
+      - NUM_REPLICAS_RMC=2
+    ports:
+      - "5555:5555"
+      - "5556:5556"
+      - "5557:5557"
+      - "5559:5559"
+      - "5560:5560"
+      - "5569:5569"
+    networks:
+      - red-srb
+
+  pc1-clientes:
+    build: ./pc1
+    container_name: pc1-clientes
+    depends_on:
+      - pc2-negocio
+      - pc3-persistencia-respaldo
+    environment:
+      - HOST_PRINCIPAL=pc2-negocio
+      - HOST_RESPALDO=pc3-persistencia-respaldo
+      - NUM_CLIENTES=3
+      - DURACION_SEG=30
+      - RPM=24
+      - ESCENARIO=docker_compose_3_clientes
+    volumes:
+      - ./pc1/resultados:/app/resultados
+    networks:
+      - red-srb
+
+networks:
+  red-srb:
+    driver: bridge
